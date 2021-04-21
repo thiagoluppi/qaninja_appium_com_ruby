@@ -4,6 +4,8 @@ Before do
   
   # Evento de click no botão começar
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click
+
+  @nav = Navigator.new
 end
 
 After do |scenario|
