@@ -10,4 +10,8 @@ class Navigator
     el_menu_lateral = find_element(id: "io.qaninja.android.twp:id/rvNavigation")
     return el_menu_lateral
   end
+
+  def tap_text(target)
+    find_element(xpath: "//*[@text='#{target}']").click
+  end
 end
