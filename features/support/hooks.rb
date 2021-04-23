@@ -8,6 +8,7 @@ Before do
   @nav = Navigator.new
   @login = LoginScreen.new
   @radio = RadioScreen.new
+  @checkbox = CheckboxScreen.new
 end
 
 After do |scenario|

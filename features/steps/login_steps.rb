@@ -8,6 +8,8 @@ Dado('que acesso a tela de login') do
 end
 
 Quando('submeto minhas credenciais:') do |table|
+#   table.rows_hash
+#   Turn a two-columned table into a hash, where the first column is the keys and the second the values
   user = table.rows_hash
   @login.login(user[:email], user[:senha])
 end
