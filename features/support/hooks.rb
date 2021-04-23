@@ -6,9 +6,11 @@ Before do
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click
 
   @nav = Navigator.new
+  @toaster = Toaster.new
   @login = LoginScreen.new
   @radio = RadioScreen.new
   @checkbox = CheckboxScreen.new
+  @clique_simples = CliqueSimplesScreen.new  
 end
 
 After do |scenario|

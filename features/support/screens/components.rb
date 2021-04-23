@@ -13,5 +13,11 @@ class Navigator
 
   def tap_text(target)
     find_element(xpath: "//*[@text='#{target}']").click
+  end  
+end
+
+class Toaster
+  def toast
+    find_element(xpath: "//android.widget.Toast")
   end
 end

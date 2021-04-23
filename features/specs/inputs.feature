@@ -13,7 +13,7 @@ Funcionalidade: Inputs
     Quando eu marco a opção Ruby
     Então esta opção deve estar marcada
   
-  @temp
+  
   Cenario: Marcar todas as techs que usam Appium
     Dado que acesso a tela Checkbox
     Quando marco as seguintes techs:
