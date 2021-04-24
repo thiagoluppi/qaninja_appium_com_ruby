@@ -10,7 +10,8 @@ Before do
   @login = LoginScreen.new
   @radio = RadioScreen.new
   @checkbox = CheckboxScreen.new
-  @clique_simples = CliqueSimplesScreen.new  
+  @clique_simples = CliqueSimplesScreen.new
+  @clique_longo = CliqueLongoScreen.new
 end
 
 After do |scenario|
