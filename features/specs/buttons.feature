@@ -8,7 +8,7 @@ Funcionalidade: Botões
     Quando faço um clique simples
     Então devo ver o texto: "Isso é um clique simples"
 
-  @temp
+  
   Cenario: Clique Longo
     Dado que acesso a tela Clique Longo
     Quando faço um clique longo

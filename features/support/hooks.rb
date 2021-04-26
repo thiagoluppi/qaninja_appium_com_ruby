@@ -12,6 +12,7 @@ Before do
   @checkbox = CheckboxScreen.new
   @clique_simples = CliqueSimplesScreen.new
   @clique_longo = CliqueLongoScreen.new
+  @lista_avengers = ListaScreen.new
 end
 
 After do |scenario|
